@@ -7,7 +7,7 @@ function Project() {
     <div className="p-3 flex flex-col w-full justify-center items-center">
       <div className="text-center my-[30px]">
         <h1 className="text-[30px] m-1">Projects</h1>
-        <hr className="w-20 mx-auto" />
+        <hr className="w-20 font-bold h-[10] border border-black mx-auto" />
       </div>
       <div className="w-[70%] rounded-[10px]">
         {/* First Card */}
@@ -35,7 +35,7 @@ function Project() {
         </div>
 
         {/* Second Card */}
-        <div className="m-5 p-3 rounded-[30px] bg-[#FFF3DE] p-20">
+        <div className="w-full m-5 p-3 rounded-[30px] bg-[#FFF3DE] p-20">
           <h1 className="font-bold text-[40px] p-4">
             Smart School Bus Monitoring System
           </h1>

@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./home";
 import Navigation from "../components/navbar";
 import Project from "./project";
+import Testimonial from "./testomonials";
 
 function Main() {
   return (
@@ -9,6 +10,7 @@ function Main() {
       <Navigation />
       <Home />
       <Project/>
+      <Testimonial/>
     </div>
   );
 }
