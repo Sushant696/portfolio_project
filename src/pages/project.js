@@ -35,7 +35,7 @@ function Project() {
         </div>
 
         {/* Second Card */}
-        <div className="w-full m-5 p-3 rounded-[30px] bg-[#FFF3DE] p-20">
+        <div className="w-full my-12 p-8 rounded-[30px] bg-[#FFF3DE]">
           <h1 className="font-bold text-[40px] p-4">
             Smart School Bus Monitoring System
           </h1>

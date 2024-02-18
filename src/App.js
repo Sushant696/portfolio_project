@@ -1,11 +1,14 @@
-import React from 'react';
-import Main from './pages/app';
-
+import React from "react";
+import Routing from "./routing/path";
+import Navigation from "./components/navbar";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
     <div>
-      <Main/>
+      <Navigation/>
+      <Routing />
+      <Footer/>
     </div>
   );
 };

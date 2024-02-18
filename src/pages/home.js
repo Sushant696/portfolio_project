@@ -7,7 +7,7 @@ import heroimg from "../images/heroimg.jpg";
 
 const Home = () => {
   return (
-    <div class="w-full flex flex-col justify-center items-center">
+    <div class="w-full flex flex-col justify-center items-center mb-10">
       <div className="w-[90%] flex justify-center">
         <div class="w-[40%]">
           <h1 class="text-[50px] font-bold  mt-9">
@@ -26,8 +26,7 @@ const Home = () => {
           <div class="">
             <a
               href="#"
-              class="inline-block px-4 py-2 text-white bg-custom-blue rounded-lg shadow-md hover:bg-custom-blue focus:ring-4
-       focus:ring-blue-500 focus:ring-opacity-50 font-bold"
+              class="my-3 inline-block px-4 py-2 text-white bg-[#D2B687] rounded-lg shadow-md  focus:ring-opacity-50 font-bold"
             >
               LinkedIn
             </a>

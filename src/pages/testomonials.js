@@ -1,4 +1,7 @@
 import React from "react";
+import card from "../images/card.png";
+import card1 from "../images/card1.png";
+import card2 from "../images/card2.png";
 
 function Testimonial() {
   return (
@@ -7,23 +10,17 @@ function Testimonial() {
         <h1 className="text-[30px] m-1">Clients Testimonial </h1>
         <hr className="w-40 border border-black  mx-auto" />
       </div>
-      <div className="w-[70%] border flex justify-center rounded-[10px]">
-        {/* First Card */}
-
-        <div className="flex w-full items-center justify-between rounded-[30px] bg-[#FFF3DE]">
-          {" "}
-          first
+      <div className="w-[70%] flex justify-center rounded-[10px]">
+        <div className="flex w-full items-center justify-between">
+          <img src={card} alt="" />
         </div>
 
-        {/* Second Card */}
-        <div className="flex w-full items-center justify-between rounded-[30px] bg-[#FFF3DE]">
-          second
+        <div className="flex w-full items-center justify-between">
+          <img src={card1} alt="" />
         </div>
 
-        {/* Third Card */}
-
-        <div className="flex w-full items-center justify-between rounded-[30px] bg-[#FFF3DE]">
-          third
+        <div className="flex w-full items-center justify-between">
+          <img src={card2} alt="" />
         </div>
       </div>
     </div>

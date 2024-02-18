@@ -1,18 +1,16 @@
 import React from "react";
 import Home from "./home";
-import Navigation from "../components/navbar";
 import Project from "./project";
 import Testimonial from "./testomonials";
 
-function Main() {
+function HomeMain() {
   return (
     <div>
-      <Navigation />
       <Home />
-      <Project/>
-      <Testimonial/>
+      <Project />
+      <Testimonial />
     </div>
   );
 }
 
-export default Main;
+export default HomeMain;
