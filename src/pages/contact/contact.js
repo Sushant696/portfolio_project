@@ -58,7 +58,7 @@ function Contact() {
         </div>
       </div>
       <div>
-        <h1 className="text-center mt-20 text-[32px] font-bold">Tools and Technologies</h1>
+        <h1 className="text-center mt-20 text-[32px] font-bold">Tools and Technof logies</h1>
         <img src={skills} alt="" />
       </div>
     </div>
