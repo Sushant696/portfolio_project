@@ -4,7 +4,7 @@ import wordPress from "../images/wordpress-589121_1280 1.png";
 
 function Project() {
   return (
-    <div className="p-3 flex flex-col w-full justify-center items-center">
+    <div className="p-3 flex flex-col w-full justify-center items-center" id="project">
       <div className="text-center my-[30px]">
         <h1 className="text-[30px] m-1">Projects</h1>
         <hr className="w-20 font-bold h-[10] border border-black mx-auto" />
@@ -35,7 +35,7 @@ function Project() {
         </div>
 
         {/* Second Card */}
-        <div className="w-full my-12 p-8 rounded-[30px] bg-[#FFF3DE]">
+        <div className="w-full my-12 p-12 rounded-[30px] bg-[#FFF3DE]">
           <h1 className="font-bold text-[40px] p-4">
             Smart School Bus Monitoring System
           </h1>

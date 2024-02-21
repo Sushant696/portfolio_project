@@ -14,9 +14,9 @@ const Navigation = () => {
             </Link>
           </li>
           <li class="ml-6">
-            <Link to="/projects" class="hover:text-gray-400">
+            <a href="#project" class="hover:text-gray-400">
               Projects
-            </Link>
+            </a>
           </li>
           <li class="ml-6">
             <Link to="/contact" class="hover:text-gray-400">
