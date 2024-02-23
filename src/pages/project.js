@@ -4,7 +4,10 @@ import wordPress from "../images/wordpress-589121_1280 1.png";
 
 function Project() {
   return (
-    <div className="p-3 flex flex-col w-full justify-center items-center" id="project">
+    <div
+      className="p-3 flex flex-col w-full justify-center items-center"
+      id="project"
+    >
       <div className="text-center my-[30px]">
         <h1 className="text-[30px] m-1">Projects</h1>
         <hr className="w-20 font-bold h-[10] border border-black mx-auto" />
@@ -25,7 +28,7 @@ function Project() {
                 of school transportation by incorporating advanced technology.
               </p>
               <button className="my-3 inline-block px-4 py-2 text-white bg-[#D2B687] rounded-lg shadow-md focus:ring-opacity-50 font-bold">
-                View Project
+                <a href="https://humttonepal.com/">View Project</a>
               </button>
             </div>
           </div>
@@ -63,7 +66,7 @@ function Project() {
                 Explore my WordPress development in action.
               </p>
               <button className="my-3 inline-block px-4 py-2 text-white bg-[#D2B687] rounded-lg shadow-md focus:ring-opacity-50 font-bold">
-                View Project
+                <a href="https://educationtreeglobal.com/">View Project</a>
               </button>
             </div>
           </div>

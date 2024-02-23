@@ -25,7 +25,7 @@ const Home = () => {
           </p>
           <div class="">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/sakshyamacharya/"
               class="my-3 inline-block px-4 py-2 text-white bg-[#D2B687] rounded-lg shadow-md  focus:ring-opacity-50 font-bold"
             >
               LinkedIn
